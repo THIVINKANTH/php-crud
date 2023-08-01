@@ -1,0 +1,92 @@
+/* welcome page */
+
+.topline{
+    padding-right: 150px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: wavy;
+    font-size: 50px;
+    color: rgb(15, 104, 186);
+    font-style: italic;
+}
+.multiText{
+    background-image: linear-gradient(rgb(255, 0, 234),grey);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+}
+#username
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* register page */
+
+#regpage
+{
+   padding: 200px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px;
+    background-image: url('Images/searchsoft.png');
+    background-repeat: no-repeat;
+    background-position: 400px -80px;
+}
+@media only screen and (max-width: 600px) {
+    #regpage {
+        width: min(1200px, 400px);
+    }
+  }
+h2
+{
+    color: blue;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    h2 {
+        width: min(1200px, 400px);
+    }
+  }
+label
+{
+    font-size: 15px;
+    font-weight: bolder;
+    padding-right:50px ;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+    label {
+        width: min(1200px, 400px);
+    }
+  }
+input
+{
+    width: 200px;
+}
+@media only screen and (max-width: 600px) {
+    input{
+        width: min(1200px, 400px);
+    }
+  }
+#but
+{
+    border-radius: 30px;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-image: linear-gradient( to right,rgb(242, 6, 226),rgb(0, 0, 255));
+    -webkit-background-clip: border-box;
+    color: transparent;
+}
+@media only screen and (max-width: 600px) {
+    but{
+        width: min(1200px, 400px);
+    }
+  }
+#foot
+{
+    padding: 10px;
+}
